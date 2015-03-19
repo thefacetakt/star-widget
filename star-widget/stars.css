@@ -1,0 +1,6 @@
+.stars-star {
+    background: url('resources/star.gif') 22px 0px; /*modified http://st.kp.yandex.net/images/starz.gif*/
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+}

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stars.css" />
+
+        <script type="text/javascript" src="jquery.min.js">
+        </script>
+
+        <script type="text/javascript" src="stars.js">
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                    window.rating = new Stars($("#stars-container"), {maxRating: 7});
+            });
+
+        </script>
+    </head>
+
+    <body>
+        <div id="stars-container">
+
+        </div>
+    </body>
+</html>
